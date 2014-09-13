@@ -268,7 +268,8 @@ hr {
 }
 
 .logo-wrapper {
-  background: url(../images/logo.png) no-repeat;
+  background: url(../images/css_icon.png) no-repeat;
+  background-size: contain;
   height: 100px;
   background-position: 15px;
 }
