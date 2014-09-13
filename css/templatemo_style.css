@@ -514,6 +514,7 @@ a.toggle-menu {
 }
 .portfolio-item .portfolio-thumb img {
   width: 100%;
+  height: 240px;
 }
 .portfolio-item .portfolio-thumb .portfolio-overlay {
   background-color: #ec523f;
