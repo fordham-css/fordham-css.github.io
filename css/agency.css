@@ -566,7 +566,7 @@ section h3.section-subheading {
   opacity: 1;
   visibility: visible;
 }
-.team-member .hovered .team-overlay {
+.team-member.hovered .team-overlay {
   opacity: 1;
   visibility: visible;
 }
