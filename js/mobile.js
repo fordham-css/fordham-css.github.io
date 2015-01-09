@@ -29,4 +29,11 @@ $(document).ready(function(){
 		    $(".team-overlay").css({"padding-top":"15%"});
 		});
 	}
+	else {
+    	var screenHeight = $(window).height();
+    	var screenWidth = $(window).width();
+        if (screenWidth > 767) {
+        	$('header').css({ height: screenHeight });
+        }
+	}
 });
