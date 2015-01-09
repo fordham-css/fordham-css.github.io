@@ -562,7 +562,10 @@ section h3.section-subheading {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
-.team-member:hover .team-overlay,
+.team-member:hover .team-overlay {
+  opacity: 1;
+  visibility: visible;
+}
 .team-member .hovered .team-overlay {
   opacity: 1;
   visibility: visible;

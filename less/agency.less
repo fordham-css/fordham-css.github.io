@@ -538,7 +538,13 @@ section {
 		-webkit-transition: all 200ms ease-in-out;
 		transition: all 200ms ease-in-out;
 	}
-	&:hover, .hovered {
+	&:hover{
+		.team-overlay {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	.hovered{
 		.team-overlay {
 			opacity: 1;
 			visibility: visible;
