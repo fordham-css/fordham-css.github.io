@@ -23,10 +23,9 @@ $(document).ready(function(){
 	if( isMobile.any() ){
 	    $(document).ready(function(){
 			$("header").removeClass("attach");
-		    $("header").css({height:600});
+		    $("header").css({height:500});
 
 		    $(".team-member").toggleClass("hovered");
-		    $(".team-overlay").css({"padding-top":"15%"});
 		    $("#team col.sm.4").css({"padding-left":"15px"});
 		    $("#team col.sm.4").css({"padding-right":"15px"});
 
@@ -36,9 +35,7 @@ $(document).ready(function(){
     	var screenHeight = $(window).height();
     	var screenWidth = $(window).width();
         if (screenWidth > 767) {
-        	console.log("Hello!")
         	$("header").css({ height: screenHeight });
-        	console.log("height changed!");
         }
 
         $("#team col.sm.4").css({"padding-left":"100px"});
