@@ -27,14 +27,20 @@ $(document).ready(function(){
 
 		    $(".team-member").toggleClass("hovered");
 		    $(".team-overlay").css({"padding-top":"15%"});
-		    $("#team col.sm.4").css({"padding":"0 15px"});
+		    $("#team col.sm.4").css({"padding-left":"15px"});
+		    $("#team col.sm.4").css({"padding-right":"15px"});
+
 		});
 	}
 	else {
     	var screenHeight = $(window).height();
     	var screenWidth = $(window).width();
         if (screenWidth > 767) {
-        	$('header').css({ height: screenHeight });
+        	$("header").removeClass("attach");
+        	$("header").css({ height: screenHeight });
         }
+
+        $("#team col.sm.4").css({"padding-left":"100px"});
+		$("#team col.sm.4").css({"padding-right":"100px"});
 	}
 });
