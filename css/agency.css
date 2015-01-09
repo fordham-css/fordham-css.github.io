@@ -194,12 +194,6 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #a71c21;
 }
-@media (max-width: 768px) {
-  #team .col-sm-4 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;

@@ -36,8 +36,11 @@ $(document).ready(function(){
     	var screenHeight = $(window).height();
     	var screenWidth = $(window).width();
         if (screenWidth > 767) {
+        	console.log("Hello!")
         	$("header").removeClass("attach");
+        	console.log("attach removed!")
         	$("header").css({ height: screenHeight });
+        	console.log("height changed!");
         }
 
         $("#team col.sm.4").css({"padding-left":"100px"});
