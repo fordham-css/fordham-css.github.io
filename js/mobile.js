@@ -37,8 +37,6 @@ $(document).ready(function(){
     	var screenWidth = $(window).width();
         if (screenWidth > 767) {
         	console.log("Hello!")
-        	$("header").removeClass("attach");
-        	console.log("attach removed!")
         	$("header").css({ height: screenHeight });
         	console.log("height changed!");
         }
