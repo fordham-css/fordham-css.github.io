@@ -27,6 +27,7 @@ $(document).ready(function(){
 
 		    $(".team-member").toggleClass("hovered");
 		    $(".team-overlay").css({"padding-top":"15%"});
+		    $("#team col.sm.4").css({"padding":"0 15px"});
 		});
 	}
 	else {
